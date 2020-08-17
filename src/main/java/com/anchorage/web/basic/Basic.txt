@@ -3,11 +3,33 @@ https://docs.oracle.com/javase/tutorial/reallybigindex.html
 Trail: Learning the Java Language
 Object-Oriented Programming Concepts
 What Is an Object?
+    Real-world objects share two characteristics: They all have state and behavior.
+    These real-world observations all translate into the world of object-oriented programming.
+    Software objects are conceptually similar to real-world objects: they too consist of state and related behavior.
+    An object stores its state in fields (variables in some programming languages)
+        and exposes its behavior through methods (functions in some programming languages)
 What Is a Class?
+     In object-oriented terms, we say that your bicycle is an instance of the class of objects known as bicycles.
+     A class is the blueprint from which individual objects are created.
 What Is Inheritance?
+    Object-oriented programming allows classes to inherit commonly used state and behavior from other classes.
+     In the Java programming language, each class is allowed to have one direct superclass,
+        and each superclass has the potential for an unlimited number of subclasses:
 What Is an Interface?
+    an interface is a group of related methods with empty bodies
 What Is a Package?
+    A package is a namespace that organizes a set of related classes and interfaces.
 Questions and Exercises: Object-Oriented Programming Concepts
+    Questions
+        Real-world objects contain ___ and ___.
+        A software object's state is stored in ___.
+        A software object's behavior is exposed through ___.
+        Hiding internal data from the outside world, and accessing it only through publicly exposed methods is known as data ___.
+        A blueprint for a software object is called a ___.
+        Common behavior can be defined in a ___ and inherited into a ___ using the ___ keyword.
+        A collection of methods with no implementation is called an ___.
+        A namespace that organizes classes and interfaces by functionality is called a ___.
+        The term API stands for ___?
 ****************************
 ***** Language Basics ******
 ****************************
@@ -21,18 +43,21 @@ Questions and Exercises: Object-Oriented Programming Concepts
     Bitwise and Bit Shift Operators
 
 ★Expressions, Statements, and Blocks
+    Expressions
+    Statements
+    Blocks { ... }
 
 ★Control Flow Statements
     The if-then and if-then-else Statements
-    The switch Statement
-    The while and do-while Statements
-    The for Statement
+    The switch Statement: switch(){...}
+    The while and do-while Statements: while(){...}
+    The for Statement:  for(){...}
     Branching Statements
 
 ★Classes
-    Declaring Classes
-    Declaring Member Variables
-    Defining Methods
+    Declaring Classes:   class Name{...}
+    Declaring Member Variables:
+    Defining Methods:  void name(){...}
     Providing Constructors for Your Classes
     Passing Information to a Method or a Constructor
 
