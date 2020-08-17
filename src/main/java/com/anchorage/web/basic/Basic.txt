@@ -2,22 +2,22 @@ https://docs.oracle.com/javase/tutorial/reallybigindex.html
 
 Trail: Learning the Java Language
 Object-Oriented Programming Concepts
-What Is an Object?
+Q1. What Is an Object?
     Real-world objects share two characteristics: They all have state and behavior.
     These real-world observations all translate into the world of object-oriented programming.
     Software objects are conceptually similar to real-world objects: they too consist of state and related behavior.
     An object stores its state in fields (variables in some programming languages)
         and exposes its behavior through methods (functions in some programming languages)
-What Is a Class?
+Q2. What Is a Class?
      In object-oriented terms, we say that your bicycle is an instance of the class of objects known as bicycles.
      A class is the blueprint from which individual objects are created.
-What Is Inheritance?
+Q3. What Is Inheritance?
     Object-oriented programming allows classes to inherit commonly used state and behavior from other classes.
      In the Java programming language, each class is allowed to have one direct superclass,
         and each superclass has the potential for an unlimited number of subclasses:
-What Is an Interface?
+Q4. What Is an Interface?
     an interface is a group of related methods with empty bodies
-What Is a Package?
+Q5. What Is a Package?
     A package is a namespace that organizes a set of related classes and interfaces.
 Questions and Exercises: Object-Oriented Programming Concepts
     Questions
@@ -33,39 +33,39 @@ Questions and Exercises: Object-Oriented Programming Concepts
 ****************************
 ***** Language Basics ******
 ****************************
-★Variables
+★1 Variables
     Primitive Data Types
     Arrays
 
-★Operators
+★2 Operators
     Assignment, Arithmetic, and Unary Operators
     Equality, Relational, and Conditional Operators
     Bitwise and Bit Shift Operators
 
-★Expressions, Statements, and Blocks
+★3 Expressions, Statements, and Blocks
     Expressions
     Statements
     Blocks { ... }
 
-★Control Flow Statements
+★4 Control Flow Statements
     The if-then and if-then-else Statements
     The switch Statement: switch(){...}
     The while and do-while Statements: while(){...}
     The for Statement:  for(){...}
     Branching Statements
 
-★Classes
+★5 Classes
     Declaring Classes:   class Name{...}
     Declaring Member Variables:
     Defining Methods:  void name(){...}
     Providing Constructors for Your Classes
     Passing Information to a Method or a Constructor
 
-★Objects
+★6 Objects
     Creating Objects
     Using Objects
 
-★More on Classes
+★7 More on Classes
     Returning a Value from a Method
     Using the this Keyword
     Controlling Access to Members of a Class
@@ -73,7 +73,7 @@ Questions and Exercises: Object-Oriented Programming Concepts
     Initializing Fields
 
 
-★Nested Classes
+★8 Nested Classes
     Inner Class Example
     Local Classes
     Anonymous Classes
@@ -81,23 +81,23 @@ Questions and Exercises: Object-Oriented Programming Concepts
         Method References
     When to Use Nested Classes, Local Classes, Anonymous Classes, and Lambda Expressions
 
-★Enum Types
+★9 Enum Types
 
-★Annotations
+★10 Annotations
     Annotations Basics
     Declaring an Annotation Type
     Predefined Annotation Types
     Type Annotations and Pluggable Type Systems
     Repeating Annotations
 
-★Interfaces
+★★11 Interfaces
     Defining an Interface
     Implementing an Interface
     Using an Interface as a Type
     Evolving Interfaces
     Default Methods
 
-★Inheritance
+★★12 Inheritance
     Multiple Inheritance of State, Implementation, and Type
     Overriding and Hiding Methods
     Polymorphism
@@ -123,7 +123,7 @@ Questions and Exercises: Object-Oriented Programming Concepts
 
 ★Autoboxing and Unboxing
 
-★Generics (Updated)
+★★13 Generics (Updated)
     Why Use Generics?
     Generic Types
         Raw Types
@@ -145,3 +145,4 @@ Questions and Exercises: Object-Oriented Programming Concepts
         Effects of Type Erasure and Bridge Methods
         Non-Reifiable Types
     Restrictions on Generics
+★★14 Encapsulation
