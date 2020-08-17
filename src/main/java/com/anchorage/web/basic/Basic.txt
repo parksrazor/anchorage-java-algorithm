@@ -1,0 +1,122 @@
+https://docs.oracle.com/javase/tutorial/reallybigindex.html
+
+Trail: Learning the Java Language
+Object-Oriented Programming Concepts
+What Is an Object?
+What Is a Class?
+What Is Inheritance?
+What Is an Interface?
+What Is a Package?
+Questions and Exercises: Object-Oriented Programming Concepts
+****************************
+***** Language Basics ******
+****************************
+★Variables
+    Primitive Data Types
+    Arrays
+
+★Operators
+    Assignment, Arithmetic, and Unary Operators
+    Equality, Relational, and Conditional Operators
+    Bitwise and Bit Shift Operators
+
+★Expressions, Statements, and Blocks
+
+★Control Flow Statements
+    The if-then and if-then-else Statements
+    The switch Statement
+    The while and do-while Statements
+    The for Statement
+    Branching Statements
+
+★Classes
+    Declaring Classes
+    Declaring Member Variables
+    Defining Methods
+    Providing Constructors for Your Classes
+    Passing Information to a Method or a Constructor
+
+★Objects
+    Creating Objects
+    Using Objects
+
+★More on Classes
+    Returning a Value from a Method
+    Using the this Keyword
+    Controlling Access to Members of a Class
+    Understanding Class Members
+    Initializing Fields
+
+
+★Nested Classes
+    Inner Class Example
+    Local Classes
+    Anonymous Classes
+    Lambda Expressions
+        Method References
+    When to Use Nested Classes, Local Classes, Anonymous Classes, and Lambda Expressions
+
+★Enum Types
+
+★Annotations
+    Annotations Basics
+    Declaring an Annotation Type
+    Predefined Annotation Types
+    Type Annotations and Pluggable Type Systems
+    Repeating Annotations
+
+★Interfaces
+    Defining an Interface
+    Implementing an Interface
+    Using an Interface as a Type
+    Evolving Interfaces
+    Default Methods
+
+★Inheritance
+    Multiple Inheritance of State, Implementation, and Type
+    Overriding and Hiding Methods
+    Polymorphism
+    Hiding Fields
+    Using the Keyword super
+    Object as a Superclass
+    Writing Final Classes and Methods
+    Abstract Methods and Classes
+
+★Numbers
+    The Numbers Classes
+    Formatting Numeric Print Output
+    Beyond Basic Arithmetic
+
+★Characters
+
+★Strings
+    Converting Between Numbers and Strings
+    Manipulating Characters in a String
+    Comparing Strings and Portions of Strings
+    The StringBuilder Class
+    Summary of Characters and Strings
+
+★Autoboxing and Unboxing
+
+★Generics (Updated)
+    Why Use Generics?
+    Generic Types
+        Raw Types
+    Generic Methods
+    Bounded Type Parameters
+        Generic Methods and Bounded Type Parameters
+    Generics, Inheritance, and Subtypes
+    Type Inference
+    Wildcards
+        Upper Bounded Wildcards
+        Unbounded Wildcards
+        Lower Bounded Wildcards
+        Wildcards and Subtyping
+        Wildcard Capture and Helper Methods
+        Guidelines for Wildcard Use
+    Type Erasure
+        Erasure of Generic Types
+        Erasure of Generic Methods
+        Effects of Type Erasure and Bridge Methods
+        Non-Reifiable Types
+    Restrictions on Generics
